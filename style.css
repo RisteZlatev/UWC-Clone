@@ -207,8 +207,7 @@ a{
     color: white;
     z-index: 9999;
     transition: 0.5s;
-    background: rgb(0,0,0, 0.7);
-    
+    background: rgb(0,0,0, 0.5);
 }
 .article:hover .article-text{
     transform: translateY(-200px);
