@@ -105,19 +105,14 @@ a{
 .hiding-text{
     display: none;
 }
-.hiding-text2{
-    display: none;
-}
-.hiding-text3{
-    display: none;
-}
+
 .card3:hover .hiding-text{
     display: block;
 }
-.card2:hover .hiding-text2{
+.card2:hover .hiding-text{
     display: block;
 }
-.card1:hover .hiding-text3{
+.card1:hover .hiding-text{
     display: block;
 }
 .article-header{
@@ -150,6 +145,7 @@ a{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    width: 100%;
 }
 .footer{
     margin: auto;
@@ -208,6 +204,7 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 20px;
+    
 }
 .button:hover{
     box-shadow: 0 0 0 4px gray;
@@ -215,7 +212,8 @@ a{
 }
 .icon:hover{
     cursor: pointer;
-    background-color: #004574;
+    background-color: #ffffff;
+    transition: 0.3s;
 }
 .footer-logo{
     margin-top: 50px;
