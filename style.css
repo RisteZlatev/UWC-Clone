@@ -194,20 +194,23 @@ a{
 
 .article{
     position: relative;
+    height: 340px;
 }
 .article-text{
-    height: 80px;
+    height: fit-content;
     width: 370px;
     text-align: center;
     display: flex;
     align-items: center;
     color: rgb(85, 85, 85);
     position: absolute;
-    top: 240px;
+    bottom: 0px;
     color: white;
     z-index: 9999;
     transition: 0.5s;
     background: rgb(0,0,0, 0.5);
+    margin-bottom: 0px;
+    padding: 10px 0px;
 }
 .article:hover .article-text{
     transform: translateY(-200px);
