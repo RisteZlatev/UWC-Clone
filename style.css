@@ -448,13 +448,15 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 200px;
-        gap: 20px;
-    }
+        height: fit-content;
+        gap: 10px;
+        padding: 0px;
+    } 
     .links{
         width: 90%;
     }
     .grid{
         grid-template-columns: 370px;
+        margin: 0px;
     }
 }
